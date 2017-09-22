@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qrcard.fragments.ScanFragment">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Scan"
+        android:textColor="#fff"
+        android:id="@+id/btn_scan"
+        android:background="@color/colorAccent"
+        android:layout_height="34dp" />
+
+</RelativeLayout>

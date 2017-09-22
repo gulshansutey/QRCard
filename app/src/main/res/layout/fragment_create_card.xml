@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.qrcard.fragments.CreateCardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Title"
+            android:id="@+id/et_title"
+            android:maxLength="20"
+            android:text="Android Developer"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:layout_height="wrap_content" /></android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Name"
+            android:maxLength="15"
+            android:id="@+id/et_name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+
+            android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/et_email"
+            android:maxLines="1"
+            android:layout_height="wrap_content" />
+</android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:id="@+id/et_phone"
+            android:maxLength="13"
+            android:layout_marginBottom="20dp"
+            android:maxLines="1"
+            android:layout_height="wrap_content" />
+</android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:text="Create"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:id="@+id/btn_create"
+            android:layout_margin="10dp"
+            android:layout_height="34dp" />
+    </LinearLayout>
+
+
+</ScrollView>
